@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{57B9A444-01A3-4325-B65E-9DDDB2DD0F4D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Toan_RR5</RootNamespace>
+    <AssemblyName>Toan_RR5</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmkhoidong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmkhoidong.Designer.cs">
+      <DependentUpon>frmkhoidong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmhuongdan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmhuongdan.Designer.cs">
+      <DependentUpon>frmhuongdan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMatrantrongso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMatrantrongso.Designer.cs">
+      <DependentUpon>frmMatrantrongso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmthongtin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmthongtin.Designer.cs">
+      <DependentUpon>frmthongtin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmhuongdan.resx">
+      <DependentUpon>frmhuongdan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmkhoidong.resx">
+      <DependentUpon>frmkhoidong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMatrantrongso.resx">
+      <DependentUpon>frmMatrantrongso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmthongtin.resx">
+      <DependentUpon>frmthongtin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\muoitenchuachon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Deleket-Sleek-Xp-Basic-User-Group.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Deleket-Sleek-Xp-Basic-Close-2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Deleket-Sleek-Xp-Basic-Ok.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dakirby309-Windows-8-Metro-Other-Power-Restart-Metro.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Visualpharm-Ios7v2-Media-Controls-Shuffle.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dapino-Summer-Blue-Holiday-Diary-Book.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\searchicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gakuseisean-Aire-Search.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Deleket-Button-Button-Delete.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxShockwaveFlashObjects">
+      <Guid>{D27CDB6B-AE6D-11CF-96B8-444553540000}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="ShockwaveFlashObjects">
+      <Guid>{D27CDB6B-AE6D-11CF-96B8-444553540000}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1375054_231303657028588_893341863_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UT0204.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20131015_184544.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\551527_167553303403624_352937791_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TIVI.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Giaodien chinh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Giaodien chinh.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boot.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boot1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TIVI1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Deleket-Sleek-Xp-Software-Windows-Turn-Off.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iconarchive-Red-Orb-Alphabet-Number-2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hinhkhoidong.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hinhkhoidong1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
